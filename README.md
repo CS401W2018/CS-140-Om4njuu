@@ -5,8 +5,8 @@ To access ```Activities``` files - https://cs401w2018.github.io/CS-140-Om4njuu/a
 Available files for ```Activities```
 <ul>
   <li>first.html</li>
-  <li>second.html</li>
   <li>webservers.html</li>
+  <li>internet_and_web_def.html</li>
   <li>favband.html</li>
 </ul>
 
