@@ -17,6 +17,8 @@ Available file(s) for ```Projects```
 <ul>
   <li>internet_and_web_def.html</li>
   <li>favband.html</li>
+  <li>myHero.html</li>
+  <li>myInterest.html</li>
 </ul>
 
 
