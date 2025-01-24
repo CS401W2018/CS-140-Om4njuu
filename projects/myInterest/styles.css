@@ -62,6 +62,7 @@ main {
 .answer-emphasize-relative-link {
     color: cyan;
     list-style: inside;
+    background: #333;
 }
 
 .answer-deemphasize {
