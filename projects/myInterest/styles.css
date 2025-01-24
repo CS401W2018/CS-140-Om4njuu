@@ -40,6 +40,10 @@ main {
     
 }
 
+.line-break {
+    list-style: none;
+}
+
 #listfavtop5 {
     list-style: upper-roman;
 }
