@@ -1,0 +1,95 @@
+* {
+    font-family: Cambria;
+}
+
+header, nav {
+    color: white;
+    font-size: large;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Chalkduster, fantasy;
+    font-weight: 100;
+}
+
+nav {
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: cyan;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: black;
+}
+
+h2 {
+    color: rgb(13, 65, 155);
+}
+
+main {
+    flex: 1;
+    padding-left: 15px;
+    
+}
+
+#listfavtop5 {
+    list-style: upper-roman;
+}
+
+.link {
+    color: #333;
+    line-height: 18px;
+}
+
+.answer-emphasize {
+    color: rgb(13, 65, 155);
+    list-style: inside;
+}
+
+.answer-emphasize-hero {
+    color: rgb(35, 138, 233);
+    list-style: inside;
+}
+
+.answer-emphasize-relative-link {
+    color: cyan;
+    list-style: inside;
+}
+
+.answer-deemphasize {
+    color: #333;
+    list-style: inside;
+}
+
+.answer-reason {
+    list-style: inside;
+}
+
+dt {
+    font-weight: bold;
+    color: rgb(13, 65, 155);
+}
+
+dd {
+    color: #333;
+}
+
+span {
+    color: rgb(35, 138, 233);
+}
+
+footer {
+    color: white;
+    font-size: small;
+    background-color: #333;
+    width: 100%;
+    padding-left: 10px;
+}

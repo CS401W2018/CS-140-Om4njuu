@@ -16,9 +16,9 @@ To access ```Projects``` files - https://cs401w2018.github.io/CS-140-Om4njuu/pro
 Available file(s) for ```Projects```
 <ul>
   <li>internet_and_web_def.html</li>
-  <li>favband.html</li>
-  <li>myHero.html</li>
-  <li>myInterest.html</li>
+  <li>myInterest/favband.html</li>
+  <li>myInterest/myHero.html</li>
+  <li>myInterest/myInterest.html</li>
 </ul>
 
 
