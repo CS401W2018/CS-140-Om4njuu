@@ -9,6 +9,7 @@ Available file(s) for ```Activities```
   <li>webservers.html</li>
   <li>second.html</li>
   <li>engagement_list.html</li>
+  <li>structural_tags.html</li>
 </ul>
 
 To access ```Projects``` files - https://cs401w2018.github.io/CS-140-Om4njuu/projects/{file_name.html}
