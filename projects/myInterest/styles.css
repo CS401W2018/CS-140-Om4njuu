@@ -23,6 +23,10 @@ nav a {
     color: cyan;
 }
 
+nav span {
+    color: white;
+}
+
 body {
     display: flex;
     flex-direction: column;
