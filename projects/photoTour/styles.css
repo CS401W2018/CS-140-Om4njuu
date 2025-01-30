@@ -21,6 +21,14 @@ img {
     padding: 15px 15px 15px 15px;
 }
 
+.flag {
+    float: left;
+}
+
+.canalday {
+    float: right;
+}
+
 ul {
     display: table; 
     margin: 0 auto;
