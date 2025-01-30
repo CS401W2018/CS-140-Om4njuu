@@ -21,6 +21,7 @@ Available file(s) for ```Projects```
   <li>myInterest/favband.html</li>
   <li>myInterest/myHero.html</li>
   <li>myInterest/myInterest.html</li>
+  <li>photoTour/index.html</li>
 </ul>
 
 
