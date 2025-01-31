@@ -6,3 +6,7 @@ footer p {
     text-align: center;
     color: chocolate;
 }
+
+* {
+    font-family: Arial, sans-serif;
+}
