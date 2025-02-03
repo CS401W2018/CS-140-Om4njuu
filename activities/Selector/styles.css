@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: red;
+}
+
+main h3 {
+    color: blue;
+}
+
+#list {
+    color: purple;
+}
+
+.firstanswer {
+    color: green;
+}
+
+#fourthquestion ul {
+    color: teal;
+}
+
+.big-and-bold {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.COL {
+    color: indigo;
+}
+
+.HEX {
+    color: #9a1818;
+}
+
+.RGB {
+    color: rgb(96, 61, 61);
+}
+
+.RGBA {
+    color: rgba(32, 99, 198, 0.81);
+}
+
+.HSL {
+    color: hsl(300, 100%, 50%);
+}
+
+.HSLA {
+    color: hsla(146, 79%, 35%, 0.81);
+}
