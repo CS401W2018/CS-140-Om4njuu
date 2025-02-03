@@ -50,3 +50,7 @@ main h3 {
 .HSLA {
     color: hsla(146, 79%, 35%, 0.81);
 }
+
+.Short-HEX {
+    color: #f90;
+}
