@@ -1,0 +1,17 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.question {
+    list-style: none;
+    font-weight: bold;
+}
+
+.answer {
+    padding-left: 30px;
+    list-style-position: inside;
+}
+
+img {
+    width: 400px;
+}
