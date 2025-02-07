@@ -13,6 +13,7 @@ Available file(s) for ```Activities```
   <li>links.html</li>
   <li>BeginningCSS/beginningCSS.html</li>
   <li>Selector/index.html</li>
+  <li>WebGraphics/index.html</li>
 </ul>
 
 To access ```Projects``` files - https://cs401w2018.github.io/CS-140-Om4njuu/projects/{file_name.html}
@@ -24,6 +25,7 @@ Available file(s) for ```Projects```
   <li>myInterest/myHero.html</li>
   <li>myInterest/myInterest.html</li>
   <li>photoTour/index.html</li>
+  <li>pageLayout/index.html</li>
 </ul>
 
 
