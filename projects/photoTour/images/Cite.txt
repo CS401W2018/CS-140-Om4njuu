@@ -9,7 +9,7 @@ List: https://www.rawpixel.com/image/9693656/png-rose-flower
 Amsterdam:
 BG: https://www.rawpixel.com/image/6042212/photo-image-wallpaper-public-domain-free
 Van Gogh Museum: https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_by_night_Amsterdam_2017.jpg
-Amsterdam Tulip Garden: https://i0.wp.com/tulipfestivalamsterdam.com/wp-content/uploads/2017/08/media-filer_public_thumbnails-filer_public-b6-f8-b6f8834e-576e-4527-be02-96c424b7e3aa-170508llu7239m.jpg__1200x1200_q85.jpg?resize=800%2C500&ssl=1
+Amsterdam Tulip Garden: https://en.wikipedia.org/wiki/Keukenhof#/media/File:NL-keukenhof-01.jpg
 
 Rotterdam:
 BG: https://www.rawpixel.com/image/6042212/photo-image-wallpaper-public-domain-free
