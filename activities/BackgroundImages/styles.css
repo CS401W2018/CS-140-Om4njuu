@@ -1,0 +1,39 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+body {
+    color: white;
+    background-image: url('images/forest.jpg');
+    background-color: rgb(10, 83, 10);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+header  {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.question {
+    border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h2, h3, p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
