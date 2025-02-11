@@ -16,8 +16,9 @@ footer {
 
 body {
     color: white;
-    background-image: url('images/forest.jpg');
-    background-color: rgb(10, 83, 10);
+    background: url('images/forest.jpg'), rgb(10, 83, 10);
+    /* background-image: url('images/forest.jpg');
+    background-color: rgb(10, 83, 10); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 100vh;
@@ -36,4 +37,19 @@ header  {
 h2, h3, p {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+h2 {
+    background: url('images/questionmark.png');
+    background-position: 120px;
+    color: rgb(186, 41, 41);
+    font-style: italic;
+    font-size: 37px;
+    text-align: center;
+}
+
+ul {
+    /* list-style-type: none;
+    list-style-image: url('images/questionmark.png'); */
+    list-style: square;
 }
