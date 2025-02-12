@@ -16,7 +16,7 @@ nav {
     height: 30px;
 }
 
-nav a :hover {
+nav :hover {
     color: white;
     font-size: 19px;
     transition: linear 0.3s;
@@ -85,4 +85,8 @@ footer {
     bottom: 0;
     text-align: center;
     padding: 5px 0px 10px 0px;
+    background: url("images/Monster_Hunter_logo.png") no-repeat;
+    background-position: right top;
+    background-origin: padding-box;
+    background-clip: padding-box;
 }
