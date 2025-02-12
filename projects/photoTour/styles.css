@@ -21,12 +21,18 @@ img {
     padding: 15px 15px 15px 15px;
 }
 
-.flag {
-    float: left;
-}
-
 .canalday {
     float: right;
+}
+
+.index-main {
+    background-image: url('images/Flag_of_the_Netherlands.png');
+    background-repeat: no-repeat;
+    background-position: top right 60px;
+}
+
+#welcome {
+    padding-right: 200px;
 }
 
 ul {
