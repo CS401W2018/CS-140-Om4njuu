@@ -25,6 +25,7 @@ nav :hover {
 body {
     margin: 0px;
     padding: 0px;
+    background-color: whitesmoke;
 }
 
 main {
@@ -89,4 +90,10 @@ footer {
     background-position: right top;
     background-origin: padding-box;
     background-clip: padding-box;
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
 }
