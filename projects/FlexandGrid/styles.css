@@ -1,0 +1,107 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: cyan;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+}
+
+aside p {
+    margin-top: 10px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .2s;
+}
+
+.card h2 {
+    font-size: large;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #333;
+    gap: 10px;
+    padding: 10px;
+}
+
+footer a {
+    color: cyan;
+    display: block;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.copyrights {
+    font-size: smaller;
+    text-align: center;
+    color: white;
+    grid-column: span 5;
+}

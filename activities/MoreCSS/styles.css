@@ -1,0 +1,15 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: salmon;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 5px;
+}
+
+header h1 {
+    border: 5px solid black;
+    border-radius: 5px;
+}
