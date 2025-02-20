@@ -1,0 +1,37 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.positioning-float {
+    width: 400px;
+    border: thin solid #000;
+    box-shadow: 3px 3px 3px rgb(0,0,0,0.5);
+    float: left;
+    font-size: 8pt;
+}
+
+.positioning-float img {
+    width: 100%;
+}
+
+.positioning img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.positioning {
+    position: relative; /*scroll off/*
+    /* position: absolute;*/
+    /* position: fixed;*/ /*stay*/
+    /* absolute and fixed are good for header, navigation, footer*/
+}
+
+nav a {
+    background-color: cornflowerblue;
+    display: block;
+    padding: 10px 5px;
+    border-bottom: 3px solid #fff;
+}
