@@ -16,6 +16,11 @@ nav {
     height: 30px;
 }
 
+nav a {
+    color: cyan;
+    display: inline-block;
+}
+
 nav :hover {
     color: white;
     font-size: 19px;
@@ -42,10 +47,6 @@ header {
 hr {
     border: 2px solid #333;
     width: 100%;
-}
-
-nav a {
-    color: cyan;
 }
 
 main h2 span {
@@ -93,7 +94,11 @@ footer {
 }
 
 #wrapper {
-    width: 600px;
+    width: 900px;
     margin: 0 auto;
     background-color: white;
+}
+
+.clear {
+    clear: both;
 }
