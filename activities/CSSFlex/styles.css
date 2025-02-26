@@ -1,0 +1,35 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+    display: block;
+    background-color: pink;
+    color: greenyellow;
+    padding: 5px 10px;
+}
+
+nav {
+    display: flex;
+    background-color: lightseagreen;
+    justify-content: space-around;
+}
+
+
+.parent {
+    background-color: bisque;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+}
+
+.child {
+    background-color: aqua;
+    width: 100px;
+    margin: 10px;
+}
+
+.featured {
+    order: -1;
+}
