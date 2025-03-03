@@ -19,6 +19,7 @@ Available file(s) for ```Activities```
   <li>Positioning/index.html</li>
   <li>CSSGrid/index.html</li>
   <li>CSSFlex/index.html</li>
+  <li>PageforPrint/index.html</li>
 </ul>
 
 To access ```Projects``` files - https://cs401w2018.github.io/CS-140-Om4njuu/projects/{file_name.html}
@@ -32,6 +33,7 @@ Available file(s) for ```Projects```
   <li>photoTour/index.html</li>
   <li>pageLayout/index.html</li>
   <li>FlexandGrid/index.html</li>
+  <li>Family/index.html</li>
 </ul>
 
 
