@@ -56,6 +56,10 @@ nav a:hover {
     padding: 10px;
 }
 
+.questions {
+    padding: 10px;
+}
+
 @media only screen and (max-width: 900px) {
     .row {
         flex-direction: column;
@@ -73,10 +77,6 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 700px) {
-    .card {
-        width: 100%;
-    }
-
     nav {
         flex-direction: column;
     }
