@@ -9,7 +9,7 @@ h1 {
 }
 
 nav {
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     padding: 10px;
     background-color: #294826;
@@ -91,4 +91,10 @@ aside h2 {
 
 footer {
     padding: 10px;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
 }
