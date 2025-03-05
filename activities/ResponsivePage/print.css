@@ -1,0 +1,41 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: yellow;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    display: none;
+}
+
+.card {
+    border: thin solid #000;
+    box-shadow: 3px 3px 3px rgba(40, 40, 40, 0.5);
+    width: 250px;
+    margin: auto;
+}
+
+.card figure {
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
