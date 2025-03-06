@@ -1,5 +1,6 @@
 * {
     font-family:'Trebuchet MS', Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -32,6 +33,7 @@ header {
     color: white;
     margin: 0;
     padding: 0;
+    border-bottom: thin solid white;
 }
 
 .container {
@@ -47,6 +49,7 @@ aside {
     padding: 10px;
     background-color: #294826;
     border: 10px solid white;
+    color: white;
 }
 
 figcaption {
@@ -55,7 +58,6 @@ figcaption {
 }
 
 main {
-    width: 75%;
     padding: 10px;
 }
 
