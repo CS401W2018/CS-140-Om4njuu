@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tables</title>
+</head>
+<body>
+    <header>
+        <h1>Tables</h1>
+    </header>
+
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Department</th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th colspan="5">Winter 2025</th>
+                </tr>
+                <tr>
+                    <td rowspan="4">CS</td>
+                    <td rowspan="2">140</td>
+                    <td>11:00-11:50 AM</td>
+                    <td>P2</td>
+                    <td rowspan="4" class="creds">3</td>
+                </tr>
+                <tr>
+                    <td>12:00-12:50 PM</td>
+                    <td>P3</td>
+                </tr>
+                <tr>
+                    <td>210</td>
+                    <td>2:00-2:50 PM</td>
+                    <td rowspan="2">P2</td>
+                </tr>
+                <tr>
+                    <td>320</td>
+                    <td>3:00-3:50 PM</td>
+                </tr>
+                <tr>
+                    <th colspan="5">Spring 2025</th>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>140</td>
+                    <td>11:00-12:50 PM</td>
+                    <td>P2</td>
+                    <td class="creds">3</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <th id="total-credits" colspan="4">Total Credits</th>
+                    <td header="total-credits" class="creds">15</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Questions</h2>
+        <h3>1. When do you use a table?</h3>
+        <p>To organize data in organized way.</p>
+        
+        <h3>2. When do you not use a table?</h3>
+        <p>To layout element on your page.</p>
+    
+        <h3>3. When do you need to do extra work for table accessibility?</h3>
+        <p>When the table has a complex data with multiple levels of headers, nested data, or a large amount of information.</p>
+    </main>
+
+    <hr>
+
+    <footer>&copy; 2025 Kanlaya Berger. All rights reserved.</footer>
+</body>
+</html>
