@@ -22,6 +22,7 @@ Available file(s) for ```Activities```
   <li>PageforPrint/index.html</li>
   <li>ResponsivePage/index.html</li>
   <li>Table/index.html</li>
+  <li>TableCSS/index.html</li>
 </ul>
 
 To access ```Projects``` files - https://cs401w2018.github.io/CS-140-Om4njuu/projects/{file_name.html}

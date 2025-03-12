@@ -1,0 +1,46 @@
+th {
+    padding: 10px;
+}
+
+.creds {
+    text-align: center;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.schedule {
+    /* border: 1px solid black; */
+    box-shadow: 3px 3px 3px rgba(30,30,30,0.5);
+    caption-side: top;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.schedule th, .schedule td {
+    /* border: thin solid #000; */
+    /* background-color: #da9292; */
+    /* border-bottom: thin solid #000; */
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.schedule thead tr {
+    background-color: blue;
+    color: white;
+}
+
+.schedule tfoot tr {
+    background-color: blue;
+    color: white;
+}
+
+.schedule tbody tr:nth-child(even) {
+    background-color: #da9292;
+}
+
+main p::first-letter {
+    font-size: 30px;
+    color: red;
+}
