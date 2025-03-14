@@ -37,6 +37,7 @@ Available file(s) for ```Projects```
   <li>pageLayout/index.html</li>
   <li>FlexandGrid/index.html</li>
   <li>Family/index.html</li>
+  <li>Tables/index.html</li>
 </ul>
 
 
