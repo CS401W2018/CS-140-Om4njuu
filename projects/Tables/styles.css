@@ -2,6 +2,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    margin: 0;
+}
+
 .container {
     display: flex;
 }
@@ -10,21 +14,20 @@ header {
     background-color: #AF3C75;
     color: white;
     text-align: center;
-    margin: 0;
-    padding: 0;
     font-size: larger;
+    padding: 10px;
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: #AF3C75;
-    margin: 0;
+    background-color: #da9292;
+    padding: 5px;
 }
 
 nav a {
     display: block;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -59,6 +62,7 @@ figure img {
 
 figure figcaption {
     text-align: center;
+    padding-top: 5px;
 }
 
 img {
@@ -78,6 +82,8 @@ table {
 table caption {
     padding: 5px;
     caption-side: top;
+    font-size: large;
+    font-weight: bold;
 }
 
 table th, table td {
@@ -86,13 +92,30 @@ table th, table td {
     border: thin solid #000;
 }
 
-table thead tr {
+table thead tr, .weapon th {
     background-color: #AF3C75;
     color: white;
 }
 
 table tbody tr:nth-child(even) {
     background-color: #da9292;
+}
+
+li {
+    text-align: left;
+}
+
+.weapon-enchantment td {
+    background-color: white;
+    text-align: left;
+}
+
+.weapon-element td {
+    background-color: #da9292;
+}
+
+.reinforcements ul {
+    list-style: none;
 }
 
 aside p::first-letter {
