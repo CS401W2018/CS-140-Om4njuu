@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header><h1>Form</h1></header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <form action="processing.html" method="get">
+            <div class="form-row">
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" placeholder="Full Name" id="fullname">
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email" id="email">
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="password" placeholder="Password" id="pass">
+            </div>   
+            <div>
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="blank">Choose</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                </select>
+            </div>
+            <div>
+                <label for="year">Year in School</label>
+                <label><input type="radio" name="year" value="Freshman" id="Freshman">Freshman</label>
+                <label><input type="radio" name="year" value="Sophomore" id="Sophomore">Sophomore</label>
+                <label><input type="radio" name="year" value="Junior" id="Junior">Junior</label>
+                <label><input type="radio" name="year" value="Senior" id="Senior">Senior</label>
+            </div>
+            <div class="form-row">
+                <input type="submit">
+            </div>
+        </form>
+
+        <h2>Questions</h2>
+        <h3>1. The form tag has an "action" attribute. What does it do?</h3>
+        <p>It specifies the URL where the form data will be sent to be processed when the form is submitted.</p>
+
+        <h3>2. The form tag has a "method" attribute. What does it do?</h3>
+        <p>It specifies the HTTP method used to send form data to the server.</p>
+
+        <h3>3. What is the difference between a "POST" and a "GET"?</h3>
+        <p>GET is for retrieve data.</p>
+        <p>POST is for when you want to submit data or sends data to a server for processing.</p>
+    </main>
+
+    <hr>
+
+    <footer>&copy; 2025 Kanlaya Berger. All rights reserved.</footer>
+</body>
+</html>
