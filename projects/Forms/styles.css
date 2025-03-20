@@ -71,14 +71,14 @@ fieldset {
     text-align: right;
 }
 
-.form-row input:not([type="submit"]), #comments {
+.form-row input:not([type="submit"]), #comments, .form-row select, .radio-row input {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #da9292;
     background-color: #f9ecec;
 }
 
-.form-row input:not([type="submit"]):focus, #comments:focus {
+.form-row input:not([type="submit"]):focus, #comments:focus, .form-row select:focus, .radio-row input:focus {
     background-color: white;
 }
 
