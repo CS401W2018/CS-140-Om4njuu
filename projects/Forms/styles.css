@@ -1,0 +1,131 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #b96c6c;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b96c6c;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #da9292;
+    color: black;
+    border-radius: 10px;
+}
+
+fieldset {
+    background-color: #da9292;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+
+.form-row input:not([type="submit"]), #comments {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #da9292;
+    background-color: #f9ecec;
+}
+
+.form-row input:not([type="submit"]):focus, #comments:focus {
+    background-color: white;
+}
+
+.form-row input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #da9292;
+}
+
+.form-row input[type="submit"]:hover {
+    background-color: #b96c6c;
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+}
+
+.form-spacer {
+    width: 150px;
+    text-align: right;
+}
+
+legend {
+    font-weight: bold;
+    background-color: #da9292;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+legend::first-letter {
+    font-size: 23px;
+}
+
+footer {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    padding: 10px;
+    font-weight: bolder;
+    border-top: 1px solid white;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+@media ONLY screen and (max-width: 600px) {
+    .form-row, .radio-row {
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
+        width: 100%;
+    }
+
+    .form-spacer {
+        text-align: left;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
