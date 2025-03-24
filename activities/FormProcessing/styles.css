@@ -1,0 +1,76 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+fieldset {
+    background-color: #da9292;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+
+.form-row input:not([type="submit"]), #comments {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #da9292;
+    background-color: #f9ecec;
+}
+
+.form-row input:not([type="submit"]):focus, #comments:focus {
+    background-color: white;
+}
+
+.form-row input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #da9292;
+}
+
+.form-row input[type="submit"]:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+.form-spacer {
+    width: 150px;
+    text-align: right;
+}
+
+legend {
+    font-weight: bold;
+    background-color: #da9292;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+legend::first-letter {
+    font-size: 23px;
+}
+    
+@media ONLY screen and (max-width: 600px) {
+    .form-row, .radio-row {
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
+    }
+
+    .form-spacer {
+        text-align: left;
+    }
+}

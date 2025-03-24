@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form Styling</title>
+</head>
+<body>
+    <header><h1>Form Styling</h1></header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <form action="processing.html" method="get" id="myForm">
+            <fieldset>
+                <legend>User Information</legend>
+                <div class="form-row">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" name="fullname" placeholder="Full Name" id="fullname">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Email" id="email">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="password" placeholder="Password" id="pass">
+                </div>   
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank">Choose</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR" selected>Arkansas</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer">Year in School:</div>
+                    <label><input type="radio" name="year" value="Freshman" id="Freshman">Freshman</label>
+                    <label><input type="radio" name="year" value="Sophomore" id="Sophomore">Sophomore</label>
+                    <label><input type="radio" name="year" value="Junior" id="Junior">Junior</label>
+                    <label><input type="radio" name="year" value="Senior" id="Senior" checked>Senior</label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" id="agree" checked>Remember Me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" placeholder="Comment blah blah blah"></textarea>
+                </div> 
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+        <h2>Questions</h2>
+        <h3>1. What is JavaScript? How did it get its name?</h3>
+        <p>JavaScript is a scripting language used to add interactivity to web pages.</p>
+        <p>It was known as LiveScript, then they changed it to JavaScript, so they could position it as a companion for the Java language.</p>
+
+        <h3>2. What are the two ways you can run JavaScript?</h3>
+        <p>In the DOM, Node.js (Express.js) (Ruby) (PhP)</p>
+
+        <h3>3. What was the most popular front-end js library?</h3>
+        <p>JQuery</p>
+
+        <h3>4. What is the most popular front-end js library today?</h3>
+        <p>React.js</p>
+    </main>
+
+    <hr>
+
+    <footer>&copy; 2025 Kanlaya Berger. All rights reserved.</footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // alert('Form submitted');
+
+            const fullname = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('pass').value;
+            const state = document.getElementById('state').value;
+            const year = document.querySelector('input[name="year"]:checked').value;
+            const comments = document.getElementById('comments').value;
+
+            if (!fullname) {
+                alert('Please enter your full name');
+                return;
+            }
+
+            // console.log('Full Name:', fullname);
+            // console.log('Email:', email);
+            // console.log('State:', state);
+            // console.log('Year:', year);
+            // console.log('Comments:', comments);
+
+            const formData = {
+                fullname: fullname,
+                email: email,
+                password: password,
+                state: state,
+                year: year,
+                comments: comments
+            };
+
+            console.log(formData);
+        });
+    </script>
+</body>
+</html>
