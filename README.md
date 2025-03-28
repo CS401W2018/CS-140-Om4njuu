@@ -26,6 +26,7 @@ Available file(s) for ```Activities```
   <li>Form/index.html</li>
   <li>FormStyling/index.html</li>
   <li>FormProcessing/index.html</li>
+  <li>AJAX/index.html</li>
 </ul>
 
 To access ```Projects``` files - https://cs401w2018.github.io/CS-140-Om4njuu/projects/{file_name.html}
@@ -42,6 +43,7 @@ Available file(s) for ```Projects```
   <li>Family/index.html</li>
   <li>Tables/index.html</li>
   <li>Forms/index.html</li>
+  <li>FormProcessing/index.html</li>
 </ul>
 
 
