@@ -44,7 +44,10 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            alert('Form submitted successfully!');
+            const response = JSON.parse(xhr.responseText);
+            document.getElementById('message').innerText = response.message;
+            document.getElementById('response').innerText = "";
+            // alert('Form submitted successfully!');
         } else if (xhr.readyState === 4) {
             alert('Error submitting form. Please try again.');
         }
