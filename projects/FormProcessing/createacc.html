@@ -15,7 +15,7 @@
     </nav>
 
     <main>
-        <form action="processing.html" method="get">
+        <form action="processing.html" method="get" id="myForm">
             <fieldset>
                 <legend>Create Account</legend>
                 <div class="form-row">
@@ -32,7 +32,7 @@
                 </div>
                 <div class="form-row">
                     <label for="phone">Phone Number:</label>
-                    <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phone">
+                    <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phone">
                 </div>
                 <div class="form-row">
                     <label for="dob">Date of Birth:</label>
@@ -122,10 +122,12 @@
                     <div class="form-spacer"></div>
                     <input type="submit">
                 </div>
+                <div id="message"></div>
             </fieldset>
         </form>
     </main>
 
     <footer class="createacc">&copy; 2025 Kanlaya Berger. All rights reserved.</footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
