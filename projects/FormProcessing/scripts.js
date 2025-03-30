@@ -8,6 +8,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     const dob = document.getElementById('dob').value;
     const username = document.getElementById('username').value;
     const password = document.getElementById('pass').value;
+    const passwordConfirm = document.getElementById('passconfirm').value;
     const firstweapon = document.getElementById('firstweapon').value;
     const secondweapon = document.getElementById('secondweapon').value;
     const platform = document.querySelector('input[name="platform"]:checked')?.value;
@@ -28,6 +29,11 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
 
     if (!dob) {
         alert('Please enter your date of birth');
+        return;
+    }
+
+    if (password !== passwordConfirm) {
+        alert('Passwords do not match');
         return;
     }
 
