@@ -20,7 +20,7 @@
                 <legend>Create Account</legend>
                 <div class="form-row">
                     <label for="fullname">Full Name:</label>
-                    <input type="text" name="fullname" placeholder="Full Name" id="fullname" required>
+                    <input type="text" name="fullname" placeholder="Full Name" id="fullname">
                 </div>
                 <div class="form-row">
                     <label for="preferredname">Preferred Name:</label>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="form-row">
                     <label for="dob">Date of Birth:</label>
-                    <input type="date" name="dob" id="dob" required>
+                    <input type="date" name="dob" id="dob">
                 </div>
                 <div class="form-row">
                     <label for="username">Username:</label>
@@ -95,6 +95,10 @@
                     <label><input type="radio" name="platform" value="ps5" id="ps5">PlayStation 5</label>
                     <label><input type="radio" name="platform" value="xbox" id="xbox">Xbox Series X|S</label>
                     <label><input type="radio" name="platform" value="pc" id="pc">PC</label>
+                </div>
+                <div class="form-row">
+                    <label for="playtime">How long have you been playing Monster Hunter Wilds? (month)</label>
+                    <input type="number" name="playtime" id="playtime" placeholder="0 (month)" min="0" max="10000">
                 </div>
                 <div class="form-row">
                     <label for="region">What is your region?</label>
