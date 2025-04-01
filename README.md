@@ -29,7 +29,7 @@ Available file(s) for ```Activities```
   <li>AJAX/index.html</li>
 </ul>
 
-To access ```Projects``` files - https://cs401w2018.github.io/CS-140-Om4njuu/projects/{file_name.html}
+To access ```Projects``` files - https://cs401w2018.github.io/CS-140-Om4njuu/final/{file_name.html}
 <ul>
   <li>index.html</li>
 </ul>
