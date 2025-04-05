@@ -186,4 +186,18 @@ td a {
         border: none;
         border-bottom: 1px solid #171a21;
     }
+
+    input-box {
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
+        width: 100%;
+    }
+
+    .form-spacer {
+        text-align: left;
+        width: 100%;
+    }
 }
