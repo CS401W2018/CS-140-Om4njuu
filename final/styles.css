@@ -70,6 +70,7 @@ table {
     width: 100%;
     text-align: center;
     border-radius: 10px;
+    transition: all 0.5s ease;
 }
 
 .table-container {
@@ -90,6 +91,12 @@ table th, table td {
     padding: 10px;
     vertical-align: middle;
     border: 1px solid #171a21;
+    word-wrap: break-word;
+}
+
+td a {
+    color: #1A9FFF;
+    text-decoration: none;
 }
 
 /* project */
@@ -153,5 +160,30 @@ table th, table td {
 
     main {
         width: 100%;
+    }
+
+    table {
+        display: block;
+        width: 100%; 
+        overflow-x: auto; 
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        border: 1px solid #171a21;
+    }
+
+    table td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #171a21;
     }
 }
