@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
 }
 
+html {
+    scrollbar-width: none;
+}
+
 body {
     margin: 0;
     background-color: #1b2838;
@@ -18,9 +22,10 @@ img {
 
 /* nav and header */
 header {
-    background-color: #1b2838;
+    background-color: #171a21;
     padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #2a475e;
 }
 
 nav {
@@ -31,11 +36,11 @@ nav {
 
 nav a {
     display: block;
-    padding: 20px;
     border-radius: 5px;
     color: #c7d5e0;
     text-decoration: none;
     position: relative;
+    transition: color 0.3s ease;
 }
 
 nav a:hover{
@@ -83,10 +88,12 @@ footer {
     margin: 0;
     font-size: 1.8rem;
     color: #1A9FFF;
+    text-align: center;
 }
 
 .profile-details p {
     margin: 5px 0;
+    text-align: center;
 }
 
 .about, .i-am, .about2 {
@@ -142,7 +149,7 @@ footer {
 
 .showcase-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -153,17 +160,31 @@ footer {
     border-radius: 5px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase-item img, 
+.showcase-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.showcase-item.min video{
+    width: 25%;
+}
+
+.showcase-item.min img{
+    width: 50%;
 }
 
 .showcase-item:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px #1A9FFF;
-}
-
-.showcase-item img, .showcase-item video {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
 }
 
 .showcase-overlay {
