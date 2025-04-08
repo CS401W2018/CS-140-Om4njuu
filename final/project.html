@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/logo.png">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>My Portfolio.</title>
+    <title>Projects - Kanlaya Berger</title>
 </head>
 <body>
-    <header>
-        <h1 class="logo">My Portfolio.</h1>
+    <header class="home-header">
+        <h1 class="head">My Portfolio.</h1>
 
         <nav>
             <a href="index.html">Home</a>
@@ -22,68 +23,74 @@
         </nav>
 
         <!-- <div class="bx bx-moon" id="darkmode"></div> -->
+        <div class="profile-info">
+            <img src="images/logo.png" alt="Profile Picture" class="profile-pic">
+            <div class="profile-details">
+                <h1>Kanlaya Berger</h1>
+                <p>Level 23</p>
+                <p><span class="fi fi-th"></span> Thailand | Netherlands <span class="fi fi-nl"></span></p>
+            </div>
+        </div>
     </header>
 
     <main>
-    <div class="project-content">
-        <h2>Projects</h2>
-
-        <div class="project-container">
-            <div class="project-box">
-                <img src="images/comingsoon.png">
-                <div class="project-layer">
-                    <h4>Pacific Connect Virtual Career Fair (In Progress)</h4>
-                    <p>A showcase of web development skills with Next.js</p>
-                    <p>Coming soon <i class="bx bx-link-external"></i></p>
+        <div class="showcase-content">
+            <h2>My Projects Showcase</h2>
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <img src="images/comingsoon.png" alt="Project Image">
+                    <div class="showcase-overlay">
+                        <h4>Pacific Connect Virtual Career Fair (In Progress)</h4>
+                        <p>A showcase of web development skills with Next.js</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project-box">
-                <video class ="video" src="videos/project1.mp4" autoplay muted loop></video>
-                <div class="project-layer">
-                    <h4>2D Pixel RPG Adventure (In Progress)</h4>
-                    <p>A showcase of game development skills with Unity and C#</p>
-                    <a href="https://sharemygame.com/@Om4njuu/2d-rpg-adventure" target="_blank"><i class="bx bx-link-external"></i></a>
+                <div class="showcase-item">
+                    <video class="video" src="videos/project1.mp4" autoplay muted loop></video>
+                    <div class="showcase-overlay">
+                        <h4>2D Pixel RPG Adventure (In Progress)</h4>
+                        <p>A showcase of game development skills with Unity and C#</p>
+                        <a href="https://sharemygame.com/@Om4njuu/2d-rpg-adventure" target="_blank"><i class="bx bx-link-external"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project-box">
-            <video class ="video-slideapp" src="videos/project2.mp4" autoplay muted loop></video>
-                <div class="project-layer">
-                    <h4>Slide App</h4>
-                    <p>A showcase of app development skills with Java and Android Studio</p>
-                    <a href="https://github.com/Om4njuu/Slide-App" target="_blank"><i class="bx bx-link-external"></i></a>
+                <div class="showcase-item">
+                    <video class="video" src="videos/project2.mp4" autoplay muted loop></video>
+                    <div class="showcase-overlay">
+                        <h4>Slide App</h4>
+                        <p>A showcase of app development skills with Java and Android Studio</p>
+                        <a href="https://github.com/Om4njuu/Slide-App" target="_blank"><i class="bx bx-link-external"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project-box">
-                <img src="images/project3.png">
-                <div class="project-layer">
-                    <h4>Memory Game</h4>
-                    <p>A showcase of web development skills with CSS, HTML, and JavaScript</p>
-                    <a href="https://github.com/Om4njuu/Memory-Game" target="_blank"><i class="bx bx-link-external"></i></a>
+                <div class="showcase-item">
+                    <img src="images/project3.png" alt="Memory Game">
+                    <div class="showcase-overlay">
+                        <h4>Memory Game</h4>
+                        <p>A showcase of web development skills with CSS, HTML, and JavaScript</p>
+                        <a href="https://github.com/Om4njuu/Memory-Game" target="_blank"><i class="bx bx-link-external"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project-box">
-                <img src="images/project4.png">
-                <div class="project-layer">
-                    <h4>Tic-Tac-Toe</h4>
-                    <p>A showcase of web development skills with CSS, HTML, and JavaScript</p>
-                    <a href="https://github.com/Om4njuu/Tic-Tac-Toe" target="_blank"><i class="bx bx-link-external"></i></a>
+                <div class="showcase-item">
+                    <img src="images/project4.png" alt="Tic-Tac-Toe">
+                    <div class="showcase-overlay">
+                        <h4>Tic-Tac-Toe</h4>
+                        <p>A showcase of web development skills with CSS, HTML, and JavaScript</p>
+                        <a href="https://github.com/Om4njuu/Tic-Tac-Toe" target="_blank"><i class="bx bx-link-external"></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="project-box">
-                <img src="images/project5.png">
-                <div class="project-layer">
-                    <h4>Snake game</h4>
-                    <p>A showcase of web development skills with CSS, HTML, and JavaScript</p>
-                    <a href="https://github.com/Om4njuu/Snake-Game" target="_blank"><i class="bx bx-link-external"></i></a>
+                <div class="showcase-item">
+                    <img src="images/project5.png" alt="Snake Game">
+                    <div class="showcase-overlay">
+                        <h4>Snake Game</h4>
+                        <p>A showcase of web development skills with CSS, HTML, and JavaScript</p>
+                        <a href="https://github.com/Om4njuu/Snake-Game" target="_blank"><i class="bx bx-link-external"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </main>
 
     <footer><p>&copy; 2025 Kanlaya Berger. All rights reserved.</p></footer>
