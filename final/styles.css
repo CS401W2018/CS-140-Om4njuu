@@ -20,6 +20,12 @@ img {
     border-radius: 10px;
 }
 
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 32px;
+}
+
 /* nav and header */
 header {
     background-color: #171a21;
@@ -47,13 +53,29 @@ nav a:hover{
     color: white;
 }
 
-.active {
-    color: #1A9FFF;
-    text-decoration: underline;
+/* Ref: https://youtu.be/wh1FKjZt_H8?si=ELDTlL2-cQJOHaKR */
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #1A9FFF;
+    transition: all 0.3s ease;
+    opacity: 0;
 }
 
-.active:hover {
+nav a:hover::after, nav a:focus::after {
+    opacity: 1;
+}
+
+.active, .active:hover {
     color: #1A9FFF;
+}
+
+.active::after {
+    opacity: 1;
 }
 
 #darkMode-icon {
@@ -61,7 +83,7 @@ nav a:hover{
 }
 
 .head {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -82,11 +104,12 @@ footer {
     border-radius: 50%;
     border: 3px solid #2a475e;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .profile-details h1 {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 29px;
     color: #1A9FFF;
     text-align: center;
 }
@@ -102,6 +125,7 @@ footer {
     background-color: #2a475e;
     border-radius: 5px;
     width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .about h2, .i-am h2, .about2 h2 {
@@ -129,11 +153,11 @@ footer {
 }
 
 .i-am-item i {
-    font-size: 2rem;
+    font-size: 32px;
     color: #1A9FFF;
 }
 
-/* Steam Showcase Styling */
+/* projects */
 .showcase-content {
     margin: 20px auto;
     padding: 20px;
@@ -164,10 +188,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.showcase-item img, 
-.showcase-item video {
+.showcase-item img, .showcase-item video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -242,6 +266,7 @@ table {
     background-color: #2a475e;
     border-radius: 5px;
     width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 caption {
@@ -266,7 +291,7 @@ td a {
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .portfolio-box img,
@@ -279,7 +304,7 @@ td a {
     margin: 0 auto;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0.8rem 1.1rem;
+    padding: 13px 18px;
     justify-content: center;
     align-items: center;
     max-width: 820px;
@@ -290,7 +315,7 @@ td a {
     margin: 0 auto;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0.8rem 1.1rem;
+    padding: 13px 18px;
     justify-content: center;
     align-items: center;
     max-width: 820px;
@@ -305,28 +330,102 @@ td a {
     width: 25%;
 }
 
-/*contact form */
-h2{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 2rem;
+/* skills */
+li img {
+    width: 50px;
+    margin: 10px;
 }
+
+ul {
+    list-style: none;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2a475e; 
+    border-radius: 10px;
+    width: 80%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ul h2, ul h3 {
+    color: #1A9FFF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+ul li img {
+    width: 50px; 
+    height: 50px; 
+    display: block;
+    margin: 0 auto 5px;
+    background-color: #c7d5e0;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+ul li img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #1A9FFF;
+    transition: all 0.3s ease;
+}
+
+/* contact form */
 .contact-form {
     display: flex;
     flex-direction: column;
     margin: 20px auto;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 30px;
+    border-radius: 10px;
     width: 80%;
+    max-width: 600px;
+    background-color: #2a475e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.contact-form input, .contact-form textarea {
+/* Form Heading */
+.contact {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 29px;
+    color: #1A9FFF;
+}
+
+/* Input Box Styling */
+.input-box {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box label {
+    font-size: 16px;
+    color: #c7d5e0;
+    margin-bottom: 5px;
+}
+
+.input-box input, .input-box textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #171a21;
     border-radius: 5px;
     background-color: #c7d5e0;
-    color: #c7d5e0;
+    color: #171a21;
+    font-size: 16px;
+    resize: none;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus, .input-box textarea:focus {
+    outline: none;
+    border-color: #1A9FFF;
+    box-shadow: 0 0 5px #1A9FFF;
 }
 
 .contact-form button {
@@ -335,11 +434,14 @@ h2{
     border-radius: 5px;
     background-color: #1482cc;
     color: white;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .contact-form button:hover {
     background-color: #1A9FFF;
+    transform: scale(1.05);
 }
 
 /* small screen */
@@ -350,7 +452,6 @@ h2{
 
     nav a {
         text-align: center;
-        border-bottom: thin solid white;
         padding: 10px;
     }
 
