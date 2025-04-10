@@ -410,11 +410,12 @@ ul li img:hover {
 .input-box input, .input-box textarea {
     width: 100%;
     padding: 10px;
+    max-width: 350px;
     border: 1px solid #171a21;
     border-radius: 5px;
     background-color: #c7d5e0;
     color: #171a21;
-    font-size: 16px;
+    font-size: 14px;
     resize: none;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
@@ -452,7 +453,6 @@ fieldset {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    transition: opacity 0.3s ease;
 }
 
 /* small screen */
@@ -499,13 +499,19 @@ fieldset {
         border-bottom: 1px solid #171a21;
     }
 
-    input-box {
-        flex-direction: column;
+    .contact-form {
+        width: 95%;
+        padding: 15px;
     }
 
-    .input-box {
-        text-align: left;
-        width: 100%;
+    .input-box input, .input-box textarea {
+        font-size: 13px;
+        padding: 8px; 
+    }
+
+    .contact-form button {
+        font-size: 14px;
+        padding: 8px;
     }
 
     fieldset {
