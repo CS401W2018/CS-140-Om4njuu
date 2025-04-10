@@ -500,13 +500,15 @@ fieldset {
     }
 
     .contact-form {
-        width: 95%;
+        width: 90%;
         padding: 15px;
+        margin: 5px;
     }
 
     .input-box input, .input-box textarea {
         font-size: 13px;
         padding: 8px; 
+        max-width: 312px;
     }
 
     .contact-form button {
@@ -517,5 +519,9 @@ fieldset {
     fieldset {
         border: none;
         margin: 0;
+    }
+
+    footer {
+        text-align: center;
     }
 }

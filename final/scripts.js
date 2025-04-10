@@ -12,7 +12,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     setTimeout(() => {
         document.getElementById('myForm').reset();
         document.getElementById('message').innerText = '';
-    }, 5000);
+    }, 3000);
     
     /*
     const formData = {
