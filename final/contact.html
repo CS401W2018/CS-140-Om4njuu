@@ -34,32 +34,36 @@
                 <p><span class="fi fi-th"></span> Thailand | Netherlands <span class="fi fi-nl"></span></p>
             </div>
         </div>
-        
-        <h2 class="contact">Feel Free To Contact Me!</h2>
-        <div class="contact-form">
-            <form action="https://formsubmit.co/528a8b94acb0c0ef05bc45c27c0add77" method="POST" id="myForm">
-                <div class="input-box">
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" name="fullname" placeholder="Enter your full name" id="fullname" required>
+
+        <!-- <form action="https://formsubmit.co/528a8b94acb0c0ef05bc45c27c0add77" method="POST" id="myForm">-->
+        <form action="processing.html" method="GET" id="myForm">
+            <fieldset>
+                <legend class="contact">Feel Free To Contact Me!</legend>
+                <div class="contact-form">
+                    <div class="input-box">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" name="fullname" placeholder="Enter your full name" id="fullname" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Enter your email" id="email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="subject">Subject:</label>
+                        <input type="text" name="subject" placeholder="Enter your subject" id="subject" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="input-message">Message:</label>
+                        <textarea name="input-message" placeholder="Write your message here" id="input-message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send</button>
                 </div>
-                <div class="input-box">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="Enter your email" id="email" required>
-                </div>
-                <div class="input-box">
-                    <label for="subject">Subject:</label>
-                    <input type="text" name="subject" placeholder="Enter your subject" id="subject" required>
-                </div>
-                <div class="input-box">
-                    <label for="message">Message:</label>
-                    <textarea name="meta" placeholder="Write your message here" id="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn">Send</button>
-            </form>
-        </div>
+                <div id="message"></div>
+            </fieldset>
+        </form>
     </main>
 
     <footer><p>&copy; 2025 Kanlaya Berger. All rights reserved.</p></footer>
+    <script src="scripts.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

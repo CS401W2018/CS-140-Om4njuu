@@ -388,7 +388,6 @@ ul li img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Form Heading */
 .contact {
     text-align: center;
     margin-bottom: 20px;
@@ -396,7 +395,6 @@ ul li img:hover {
     color: #1A9FFF;
 }
 
-/* Input Box Styling */
 .input-box {
     margin-bottom: 20px;
     display: flex;
@@ -442,6 +440,19 @@ ul li img:hover {
 .contact-form button:hover {
     background-color: #1A9FFF;
     transform: scale(1.05);
+}
+
+fieldset {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: opacity 0.3s ease;
 }
 
 /* small screen */
@@ -495,5 +506,10 @@ ul li img:hover {
     .input-box {
         text-align: left;
         width: 100%;
+    }
+
+    fieldset {
+        border: none;
+        margin: 0;
     }
 }
