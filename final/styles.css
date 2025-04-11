@@ -92,6 +92,29 @@ footer {
     font-size: smaller;
 }
 
+.resume .btn {
+    padding: 10px 20px;
+    background-color: #1482cc;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume .btn:hover {
+    background-color: #1A9FFF;
+    transform: scale(1.05);
+}
+
+.resume {
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
 /* home & about */
 .profile-info {
     align-items: center;
@@ -245,6 +268,20 @@ footer {
 }
 
 .showcase-overlay a:hover {
+    text-decoration: underline;
+}
+
+.Adam {
+    padding-left: 50px;
+}
+
+.about2 a {
+    color: #1A9FFF;
+    text-decoration: none;
+}
+
+.about2 a:hover {
+    color: #5dbbff;
     text-decoration: underline;
 }
 
@@ -455,6 +492,10 @@ fieldset {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+}
+
 /* small screen */
 @media only screen and (max-width: 700px) {
     nav {
@@ -519,9 +560,5 @@ fieldset {
     fieldset {
         border: none;
         margin: 0;
-    }
-
-    footer {
-        text-align: center;
     }
 }
